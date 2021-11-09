@@ -1,0 +1,17 @@
+body {
+  background-color: #ddffff;
+}
+
+h1 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+}
+p {
+  color: black;
+  font-family: "Eczar", sans-serif;
+  font-weight: 400;
+}
