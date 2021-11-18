@@ -22,6 +22,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  font-style: "Abril Fatface";
 }
 
 h2 {
@@ -37,6 +38,7 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -49,6 +51,14 @@ p {
   line-height: 2;
 }
 
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
 .btn-branding {
   background: var(--branding-color);
   flex-direction: row;
@@ -56,7 +66,7 @@ p {
   padding: 15px 30px;
   font-size: 18px;
   color: white;
-  background:black;
+  background: black;
   border-radius: 4px;
   line-height: 27px;
   text-align: center;
@@ -70,15 +80,14 @@ p {
   border-radius: 4px;
   text-decoration: none;
   text-align: center;
-  
 }
 .project-description {
   padding: 120px 60px;
 }
 @media (max-width: 960px) {
   h1 {
-    font-size: 44px;
-    line-height: 1.5;
+  font-size: 64px;
+    line-height: 80px;
   }
   h2 {
     font-size: 44px;
