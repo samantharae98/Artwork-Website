@@ -1,40 +1,43 @@
 :root {
-  --branding-color: #cc3fa5;
-  --secondary-color: #eaeccf;
+  --branding-color: #6c63ff;
+  --secondary-color: #ffd0f9;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
+  background: #87b5fa;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #275ae7;
-  font-family: var(--heading-font-familly);
-  font-weight: 600;
-  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
 h1 {
   font-size: 96px;
-  font-style: "Abril Fatface";
+  line-height: 1.5;
 }
 
 h2 {
   font-size: 64px;
 }
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
+
 .hero {
-  background-color: var(--secondary-color);
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -43,52 +46,44 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-}
-.hero h2 {
-  font-family: var(--heading-font-familly);
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 2;
+  color: #5332e2;
 }
 
-.about-section h1 {
-  font-size: 64px;
-  line-height: 1;
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
 }
-.about-section h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
+
 .btn-branding {
   background: var(--branding-color);
-  flex-direction: row;
   border-radius: 4px;
-  padding: 15px 30px;
-  font-size: 18px;
   color: white;
-  background: black;
-  border-radius: 4px;
+  font-size: 18px;
   line-height: 27px;
-  text-align: center;
+  padding: 15px 30px;
 }
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  border-radius: 4px;
-  text-decoration: none;
-  text-align: center;
 }
-.project-description {
+
+.project-desciption {
   padding: 120px 60px;
 }
-@media (max-width: 960px) {
+
+@media (max-width: 900px) {
   h1 {
-  font-size: 64px;
-    line-height: 80px;
+    font-size: 44px;
+    line-height: 2;
   }
+
   h2 {
     font-size: 44px;
   }
@@ -96,8 +91,128 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .project-description {
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
+:root {
+  --branding-color: #a7f8e4;
+  --secondary-color: #4c92fa;
+  --heading-font-family: "helvetica", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(255, 255, 255);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-desciption {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .about-section {
     text-align: center;
     padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
   }
 }
