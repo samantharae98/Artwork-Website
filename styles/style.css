@@ -7,7 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
-  background: #87b5fa;
+  background: #ffffff;
 }
 
 h1,
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgb(255, 255, 255);
+  color:#5332e2 );
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -56,6 +56,7 @@ p {
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
+  color: #ffffff;
   line-height: 1.5;
   font-size: 24px;
 }
@@ -103,7 +104,7 @@ nav li.active a {
 }
 nav a {
   text-decoration: none;
-  color: white;
+  color: #4c92fa;
   transition: all 100ms ease-in-out;
 }
 footer {
@@ -165,7 +166,7 @@ footer .social-links a:hover {
   }
 }
 :root {
-  --branding-color: #a7f8e4;
+  --branding-color: #2cdce2;
   --secondary-color: #4c92fa;
   --heading-font-family: "helvetica", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -182,7 +183,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgb(255, 255, 255);
+  color: var() (--secondary-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
