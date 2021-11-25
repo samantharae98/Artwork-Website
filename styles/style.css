@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #ffd0f9;
+  --branding-color: #4c92fa;
+  --secondary-color: #d634c1;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  color:#5332e2 );
+  color: #d634c1);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -61,6 +61,15 @@ p {
   font-size: 24px;
 }
 
+.hero .btn-branding {
+  color: white;
+}
+.hero .btn-branding:hover {
+  background: var(--secondary-color);
+  border: solid 2px var(--tertiary-color);
+  transition: all 100ms ease-in-out;
+  ;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -68,11 +77,12 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+
 }
 
 .btn-branding-outline {
   color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+ 
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -100,7 +110,7 @@ nav li {
 }
 
 nav li.active a {
-  color: black;
+  color: var(--secondary-color);
 }
 nav a {
   text-decoration: none;
@@ -119,10 +129,12 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0px;
 }
-
+footer h4 {
+  color: white ;
+}
 footer .email-link {
   text-decoration: none;
-  color: white;
+  color:  var(--branding-color);
   font-size: 24;
   text-align: center;
 }
@@ -133,7 +145,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0, 20px;
-  color: var(--branding-color);
+  color: white;
   background: var(--secondary-color);
   padding: 10px 15px;
   font-size: 18px;
@@ -166,8 +178,9 @@ footer .social-links a:hover {
   }
 }
 :root {
-  --branding-color: #2cdce2;
-  --secondary-color: #4c92fa;
+  --branding-color: #4c92fa;
+  --secondary-color: #e172fd;
+  --tertiary-color: rgb(255, 255, 255);
   --heading-font-family: "helvetica", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -216,11 +229,15 @@ p {
   color: #ffffff;
 }
 
+.hero h1 {
+  color: #ffffff;
+}
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+  
 }
 
 .content-container {
@@ -248,22 +265,23 @@ p {
 .content p {
   font-size: 14px;
 }
-.btn-branding {
+.btn-branding-outline {
   background: var(--branding-color);
-  border-radius: 4px;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 16 px;
+  color: #ffffff;
+  text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
 }
 
-.btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  font-size: 18px;
+.btn-branding-outline:hover {
+ background: var(--secondary-color);
+  font-size: 16 px;
+  color: #ffffff;
+  text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
+   transition: all 100ms ease-in-out;
 }
 
 .project-desciption {
